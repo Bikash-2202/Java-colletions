@@ -85,6 +85,7 @@ public class BockingQueueDemo {
         queue2.add("banana");
         queue2.add("cherry");
         System.out.println(queue2);
+            System.out.println("new changes");
         BlockingQueue<Integer> queue3 =  new SynchronousQueue<>();
         // each insert operation must wait for a corresponding remove operation by another thread and vice versa.
         // it cannot store elements, capacity of at most one element
